@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <SunopsisExport>
 <Admin RepositoryVersion="05.02.02.05" IsLegacyIdCompatible="false" />
-<Encryption algorithm="AES" keyLength="128" exportKeyHash="" keyVect="iPNyN78OMuyXRzTux60iEw==" exportKeySalt="bebc6bf7-1bf9-4685-86af-cc1f2b89ef6f" containsCipherText="false"/>
+<Encryption algorithm="AES" keyLength="128" exportKeyHash="" keyVect="GmWy7usihgt4u2huiQEuDA==" exportKeySalt="8c265f29-bad0-41a3-8c2a-d8a2be37dd04" containsCipherText="false"/>
 <Object class="com.sunopsis.dwg.dbobj.SnpFolder">
 		<Field name="ExtVersion" type="java.lang.String">null</Field>
 	<Field name="FirstDate" type="java.sql.Timestamp"><![CDATA[2018-02-14 14:12:46.0]]></Field>
@@ -12,7 +12,7 @@
 	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[3]]></Field>
 	<Field name="IFolder" type="com.sunopsis.sql.DbInt"><![CDATA[62]]></Field>
 	<Field name="IProject" type="com.sunopsis.sql.DbInt"><![CDATA[11]]></Field>
-	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2018-02-16 06:24:27.0]]></Field>
+	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2018-02-16 20:12:44.0]]></Field>
 	<Field name="LastUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
 	<Field name="OrdFolder" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
 	<Field name="ParIFolder" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
@@ -24,7 +24,7 @@
 	<Field name="SubType" type="java.lang.String"><![CDATA[N]]></Field>
 	<Field name="Name" type="java.lang.String"><![CDATA[Copy of Stage_file123]]></Field>
 	<Field name="GlobalId" type="java.lang.String"><![CDATA[9f04ee74-3c4a-4a29-a8c3-2ad1753422a1]]></Field>
-	<Field name="Version" type="java.lang.String"><![CDATA[b91b4c26d766161ae78f3c7d0a4eab6cb14816b2]]></Field>
+	<Field name="Version" type="java.lang.String"><![CDATA[50f8bfe94f16aeee0c76c4f210813cd51128e9ed]]></Field>
 	<Field name="Path" type="java.lang.String"><![CDATA[Mappings/MAP_Copy_of_Stage_file123.xml]]></Field>
 </Object>
 <Object class="com.sunopsis.dwg.dbobj.SnpChildFCO">
