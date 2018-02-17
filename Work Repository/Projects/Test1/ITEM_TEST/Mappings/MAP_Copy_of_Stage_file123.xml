@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <SunopsisExport>
 <Admin RepositoryVersion="05.02.02.05" IsLegacyIdCompatible="false" />
-<Encryption algorithm="AES" keyLength="128" exportKeyHash="" keyVect="PMXZgigo0Np+/pBTJEKkYw==" exportKeySalt="5490619b-7254-4015-9e8b-a65f87b9678b" containsCipherText="false"/>
+<Encryption algorithm="AES" keyLength="128" exportKeyHash="" keyVect="VGdGVrSjP4ORPajUU+LF2w==" exportKeySalt="92601e10-72f9-4b83-bbef-96bab8b3692b" containsCipherText="false"/>
 <Object class="com.sunopsis.dwg.dbobj.SnpMapping">
 		<Field name="BusinessName" type="java.lang.String">null</Field>
 	<Field name="Descript" type="java.lang.String">null</Field>
@@ -11,7 +11,7 @@
 	<Field name="FirstUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
 	<Field name="GlobalId" type="java.lang.String"><![CDATA[9f04ee74-3c4a-4a29-a8c3-2ad1753422a1]]></Field>
 	<Field name="IndChange" type="java.lang.String"><![CDATA[U]]></Field>
-	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[3]]></Field>
+	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[5]]></Field>
 	<Field name="IsReusable" type="java.lang.String"><![CDATA[N]]></Field>
 	<Field name="IContextMapRef" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
 	<Field name="IFolder" type="com.sunopsis.sql.DbInt"><![CDATA[62]]></Field>
@@ -20,7 +20,7 @@
 	<Field name="IScBaseMapping" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
 	<Field name="IScMapping" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
 	<Field name="IScOrigMapping" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
-	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2018-02-16 20:10:52.0]]></Field>
+	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2018-02-16 20:12:44.0]]></Field>
 	<Field name="LastUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
 	<Field name="MetadataVersion" type="java.lang.String"><![CDATA[12]]></Field>
 	<Field name="Name" type="java.lang.String"><![CDATA[Copy of Stage_file123]]></Field>
@@ -1251,12 +1251,12 @@
 	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2018-02-15 21:44:25.0]]></Field>
 	<Field name="LastUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
 	<Field name="ParsedText" type="java.lang.String">null</Field>
-	<Field name="ParsedTxt" type="java.lang.String"><![CDATA[@{R0} = @{R1}  ]]></Field>
+	<Field name="ParsedTxt" type="java.lang.String"><![CDATA[@{R0} @{R1}  ]]></Field>
 	<Field name="PropValues" type="java.lang.String">null</Field>
 	<Field name="Text" type="java.lang.String">null</Field>
-	<Field name="TextHash" type="com.sunopsis.sql.DbInt"><![CDATA[1214675870]]></Field>
+	<Field name="TextHash" type="com.sunopsis.sql.DbInt"><![CDATA[1571603009]]></Field>
 	<Field name="TextOnly" type="java.lang.String"><![CDATA[0]]></Field>
-	<Field name="Txt" type="java.lang.String"><![CDATA[STAGING.JOB = EMP.JOB  ]]></Field>
+	<Field name="Txt" type="java.lang.String"><![CDATA[STAGING.JOB EMP.JOB  ]]></Field>
 	<Field name="ValidationCode" type="java.lang.String">null</Field>
 </Object>
 <Object class="com.sunopsis.dwg.dbobj.SnpMapExprRef">
@@ -1696,7 +1696,7 @@
 		<Field name="ExecOnHint" type="java.lang.String"><![CDATA[N]]></Field>
 	<Field name="FirstDate" type="java.sql.Timestamp">null</Field>
 	<Field name="FirstUser" type="java.lang.String">null</Field>
-	<Field name="GlobalId" type="java.lang.String"><![CDATA[34392b2a-2848-4e13-ac4c-72553c656a7e]]></Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[7c4f406a-2eef-4232-a52e-d0b309174891]]></Field>
 	<Field name="HasUnparsedIdent" type="java.lang.String">null</Field>
 	<Field name="IndChange" type="java.lang.String">null</Field>
 	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
@@ -1705,7 +1705,7 @@
 	<Field name="IDisTechRef" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
 	<Field name="IExOnLsRef" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
 	<Field name="IMapCp" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
-	<Field name="IMapExpr" type="com.sunopsis.sql.DbInt"><![CDATA[360]]></Field>
+	<Field name="IMapExpr" type="com.sunopsis.sql.DbInt"><![CDATA[362]]></Field>
 	<Field name="IOwnerMapAttr" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
 	<Field name="IOwnerMapProp" type="com.sunopsis.sql.DbInt"><![CDATA[412]]></Field>
 	<Field name="LastDate" type="java.sql.Timestamp">null</Field>
@@ -1729,8 +1729,8 @@
         <semanticModel xmi:type='DI:SimpleSemanticModelBridge' typeInfo='SYMBOLIC'/>
         <size xmi:type='DI:Dimension' height='80.0' width='200.0'/>
       </contained>
-      <contained xmi:type='DI:GraphNode' xmi:id='id9922432d-dbf3-4533-8443-b500ad25c326'>
-        <anchorage xmi:type='DI:GraphConnector' xmi:id='idf1028d7b-132e-4d4e-bd5f-1a5b01093cfd' graphEdge='idd02de504-b5b1-435a-b687-a7eac2b47563'/>
+      <contained xmi:type='DI:GraphNode' xmi:id='idf2979ae3-6851-4d58-a605-d7cc0fff6986'>
+        <anchorage xmi:type='DI:GraphConnector' xmi:id='id15a7bcf5-9108-4805-b992-532b80684fa1' graphEdge='id7be2952a-ba89-4cd5-9502-dc30ff939e8e'/>
         <semanticModel xmi:type='DI:SimpleSemanticModelBridge' typeInfo='Port-East'/>
       </contained>
       <position xmi:type='DI:Point' x='180.0' y='60.0'/>
@@ -1757,8 +1757,8 @@
         <semanticModel xmi:type='DI:SimpleSemanticModelBridge' typeInfo='SYMBOLIC'/>
         <size xmi:type='DI:Dimension' height='151.47607421875' width='200.0'/>
       </contained>
-      <contained xmi:type='DI:GraphNode' xmi:id='id2d940b11-837d-4c29-a5df-56f99a2e58e7'>
-        <anchorage xmi:type='DI:GraphConnector' xmi:id='id745193b0-e8a5-4bdd-b231-33fafbb672e4' graphEdge='id8075e557-fdd5-4245-9a2b-bf811428d5b9'/>
+      <contained xmi:type='DI:GraphNode' xmi:id='id9888f3cb-4cd7-41b3-8719-661ca4189e7e'>
+        <anchorage xmi:type='DI:GraphConnector' xmi:id='id407e617b-0d5c-4003-bd30-1b380aec8c53' graphEdge='id11e85754-63e6-46f7-a90f-0328d6676307'/>
         <semanticModel xmi:type='DI:SimpleSemanticModelBridge' typeInfo='Port-East'/>
       </contained>
       <position xmi:type='DI:Point' x='180.0' y='180.0'/>
@@ -1777,12 +1777,12 @@
       <size xmi:type='DI:Dimension' height='151.47607421875' width='200.0'/>
     </contained>
     <contained xmi:type='DI:GraphNode' xmi:id='ida694f40b-a40f-442b-9c73-6c73af1843aa'>
-      <contained xmi:type='DI:GraphNode' xmi:id='id85287dd4-9bbc-4bbc-b408-9b3ab8f365bb'>
-        <anchorage xmi:type='DI:GraphConnector' xmi:id='iddaf9a271-b0b8-4501-ab4e-029760164540' graphEdge='id8f12ab71-1e6e-4507-ac6a-55523e670c58'/>
+      <contained xmi:type='DI:GraphNode' xmi:id='id9044c5ce-75ab-4406-9500-d57ae340a44d'>
+        <anchorage xmi:type='DI:GraphConnector' xmi:id='id2e6422fa-e480-4912-b663-98cb59828983' graphEdge='ida0c64571-e980-4ad7-9f2d-83755293584a'/>
         <semanticModel xmi:type='DI:SimpleSemanticModelBridge' typeInfo='Port-East'/>
       </contained>
-      <contained xmi:type='DI:GraphNode' xmi:id='idc3f58f4d-7913-494b-b495-68b2bb345215'>
-        <anchorage xmi:type='DI:GraphConnector' xmi:id='id6a1bfef9-d51a-4f79-8fa5-bbe68c685a96' graphEdge='id8075e557-fdd5-4245-9a2b-bf811428d5b9 idd02de504-b5b1-435a-b687-a7eac2b47563'/>
+      <contained xmi:type='DI:GraphNode' xmi:id='id6c9f8af5-1e61-4a25-8629-a056aadc48d9'>
+        <anchorage xmi:type='DI:GraphConnector' xmi:id='id29391962-d73d-4843-831e-82fad5ec6f41' graphEdge='id11e85754-63e6-46f7-a90f-0328d6676307 id7be2952a-ba89-4cd5-9502-dc30ff939e8e'/>
         <semanticModel xmi:type='DI:SimpleSemanticModelBridge' typeInfo='Port-West'/>
       </contained>
       <position xmi:type='DI:Point' x='540.0' y='90.0'/>
@@ -1802,8 +1802,8 @@
         <semanticModel xmi:type='DI:SimpleSemanticModelBridge' typeInfo='SYMBOLIC'/>
         <size xmi:type='DI:Dimension' height='80.0' width='200.0'/>
       </contained>
-      <contained xmi:type='DI:GraphNode' xmi:id='idfbd1ed60-d006-4e00-a1ce-d50bf31a02e7'>
-        <anchorage xmi:type='DI:GraphConnector' xmi:id='id42fec7cd-f672-41af-a268-c382520044ce' graphEdge='id8f12ab71-1e6e-4507-ac6a-55523e670c58'/>
+      <contained xmi:type='DI:GraphNode' xmi:id='id7b412bd7-85c4-4e24-ad79-5f0680e45d3a'>
+        <anchorage xmi:type='DI:GraphConnector' xmi:id='idbaa47a54-a6a1-4988-ab56-4fbf36233a3d' graphEdge='ida0c64571-e980-4ad7-9f2d-83755293584a'/>
         <semanticModel xmi:type='DI:SimpleSemanticModelBridge' typeInfo='Port-West'/>
       </contained>
       <position xmi:type='DI:Point' x='735.0' y='150.0'/>
@@ -1821,20 +1821,20 @@
       <semanticModel xmi:type='DI:CoreSemanticModelBridge' element='LogicalInterfaceComponent:FILE:LogicalAttributeDisplayerNode:13c37b5d-0232-4eaa-aeed-82fac0e2da87' presentation='SYMBOLIC'/>
       <size xmi:type='DI:Dimension' height='80.0' width='200.0'/>
     </contained>
-    <contained xmi:type='DI:GraphEdge' xmi:id='id8075e557-fdd5-4245-9a2b-bf811428d5b9' anchor='id745193b0-e8a5-4bdd-b231-33fafbb672e4 id6a1bfef9-d51a-4f79-8fa5-bbe68c685a96'>
+    <contained xmi:type='DI:GraphEdge' xmi:id='id11e85754-63e6-46f7-a90f-0328d6676307' anchor='id407e617b-0d5c-4003-bd30-1b380aec8c53 id29391962-d73d-4843-831e-82fad5ec6f41'>
       <semanticModel xmi:type='DI:CoreSemanticModelBridge' element='LogicalInterfaceComponent:EDGE:LogicalSimpleEdge:d8a6923e-b0e9-4892-8a70-4cdad4c1cc79->a7f9da48-6a12-44f6-a432-58e5b3b7f298'/>
       <waypoint xmi:type='DI:Point' x='379.0' y='255.738037109375'/>
       <waypoint xmi:type='DI:Point' x='543.0' y='106.0'/>
     </contained>
-    <contained xmi:type='DI:GraphEdge' xmi:id='idd02de504-b5b1-435a-b687-a7eac2b47563' anchor='idf1028d7b-132e-4d4e-bd5f-1a5b01093cfd id6a1bfef9-d51a-4f79-8fa5-bbe68c685a96'>
-      <semanticModel xmi:type='DI:CoreSemanticModelBridge' element='LogicalInterfaceComponent:EDGE:LogicalSimpleEdge:cb2edd74-d597-46a1-af23-53703a8367b1->a7f9da48-6a12-44f6-a432-58e5b3b7f298'/>
-      <waypoint xmi:type='DI:Point' x='379.0' y='100.0'/>
-      <waypoint xmi:type='DI:Point' x='543.0' y='106.0'/>
-    </contained>
-    <contained xmi:type='DI:GraphEdge' xmi:id='id8f12ab71-1e6e-4507-ac6a-55523e670c58' anchor='iddaf9a271-b0b8-4501-ab4e-029760164540 id42fec7cd-f672-41af-a268-c382520044ce'>
+    <contained xmi:type='DI:GraphEdge' xmi:id='ida0c64571-e980-4ad7-9f2d-83755293584a' anchor='id2e6422fa-e480-4912-b663-98cb59828983 idbaa47a54-a6a1-4988-ab56-4fbf36233a3d'>
       <semanticModel xmi:type='DI:CoreSemanticModelBridge' element='LogicalInterfaceComponent:EDGE:LogicalSimpleEdge:a7f9da48-6a12-44f6-a432-58e5b3b7f298->13c37b5d-0232-4eaa-aeed-82fac0e2da87'/>
       <waypoint xmi:type='DI:Point' x='587.0' y='106.0'/>
       <waypoint xmi:type='DI:Point' x='736.0' y='190.0'/>
+    </contained>
+    <contained xmi:type='DI:GraphEdge' xmi:id='id7be2952a-ba89-4cd5-9502-dc30ff939e8e' anchor='id15a7bcf5-9108-4805-b992-532b80684fa1 id29391962-d73d-4843-831e-82fad5ec6f41'>
+      <semanticModel xmi:type='DI:CoreSemanticModelBridge' element='LogicalInterfaceComponent:EDGE:LogicalSimpleEdge:cb2edd74-d597-46a1-af23-53703a8367b1->a7f9da48-6a12-44f6-a432-58e5b3b7f298'/>
+      <waypoint xmi:type='DI:Point' x='379.0' y='100.0'/>
+      <waypoint xmi:type='DI:Point' x='543.0' y='106.0'/>
     </contained>
     <property xmi:type='DI:Property' key='minLayoutDistance' value='40'/>
     <property xmi:type='DI:Property' key='alignmentRulersColor' value='#99d9ea'/>
