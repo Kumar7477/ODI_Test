@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <SunopsisExport>
 <Admin RepositoryVersion="05.02.02.05" IsLegacyIdCompatible="false" />
-<Encryption algorithm="AES" keyLength="128" exportKeyHash="" keyVect="Ub+AI2ZwbYftbnoaYccpwg==" exportKeySalt="d56fa3bc-d54f-43f7-a3a3-29bdf9e109c6" containsCipherText="false"/>
+<Encryption algorithm="AES" keyLength="128" exportKeyHash="" keyVect="6pZfJgwwoThUH4mFqwrzHQ==" exportKeySalt="805846dc-78df-4422-b873-810a372799cb" containsCipherText="false"/>
 <Object class="com.sunopsis.dwg.dbobj.SnpProject">
 		<Field name="BegVersion" type="java.sql.Timestamp">null</Field>
 	<Field name="ExtVersion" type="java.lang.String">null</Field>
@@ -11,7 +11,7 @@
 	<Field name="IndChange" type="java.lang.String"><![CDATA[U]]></Field>
 	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[3]]></Field>
 	<Field name="IProject" type="com.sunopsis.sql.DbInt"><![CDATA[11]]></Field>
-	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2018-02-16 06:24:27.0]]></Field>
+	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2018-02-16 20:12:44.0]]></Field>
 	<Field name="LastUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
 	<Field name="ProjectCode" type="java.lang.String"><![CDATA[TEST1]]></Field>
 	<Field name="ProjectName" type="java.lang.String"><![CDATA[Test1]]></Field>
@@ -31,7 +31,7 @@
 	<Field name="SubType" type="java.lang.String">null</Field>
 	<Field name="Name" type="java.lang.String"><![CDATA[ITEM_TEST]]></Field>
 	<Field name="GlobalId" type="java.lang.String"><![CDATA[8b9cdb92-800a-4ec5-9f7b-0c5a7bbe3d75]]></Field>
-	<Field name="Version" type="java.lang.String"><![CDATA[93ad839a90c8fc032b848c9ff478785f2be766e5]]></Field>
+	<Field name="Version" type="java.lang.String"><![CDATA[8f3252dd6b6ad70c945432ddab357583756f9d5a]]></Field>
 	<Field name="Path" type="java.lang.String"><![CDATA[ITEM_TEST/FOLD_ITEM_TEST.xml]]></Field>
 </Object>
 <Object class="com.sunopsis.dwg.dbobj.SnpChildFCO">
